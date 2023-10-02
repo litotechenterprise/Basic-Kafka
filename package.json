@@ -1,12 +1,13 @@
 {
   "name": "kafka-basics",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:consumer": "node src/consumer.js",
-    "start:producer": "node src/producer.js"
+    "consumer": "node consumer.js",
+    "producer": "node producer.js"
   },
   "keywords": [],
   "author": "",
