@@ -20,6 +20,7 @@ const produce = async () => {
     ],
   });
 };
+
 // produce after every 3 seconds
 setInterval(() => {
   produce()
